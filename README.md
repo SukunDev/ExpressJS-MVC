@@ -94,5 +94,5 @@ curl -X GET http://localhost:5000/api/users
 Proyek ini menggunakan lisensi MIT. Silakan cek file `LICENSE` untuk informasi lebih lanjut.
 
 ---
-Dikembangkan oleh [username](https://github.com/username) 💻🚀
+Dikembangkan oleh [SukunDev](https://github.com/SukunDev) 💻🚀
 
