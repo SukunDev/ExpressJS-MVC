@@ -12,8 +12,7 @@ Proyek ini adalah implementasi REST API menggunakan Express.js dengan arsitektur
 ## 🛠 Teknologi yang Digunakan
 - Node.js
 - Express.js
-- MongoDB atau MySQL
-- Mongoose (jika menggunakan MongoDB)
+- MySQL
 - Sequelize (jika menggunakan MySQL)
 
 ## 📦 Instalasi
@@ -33,19 +32,7 @@ cd ExpressJS-MVC
 npm install
 ```
 
-### 4. Konfigurasi Environment
-Buat file `.env` dan tambahkan konfigurasi berikut:
-```env
-PORT=5000
-DB_URI=mongodb://localhost:27017/mydatabase  # Jika menggunakan MongoDB
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=password
-DB_NAME=mydatabase  # Jika menggunakan MySQL
-JWT_SECRET=your_secret_key
-```
-
-### 5. Jalankan Server
+### 4. Jalankan Server
 ```bash
 npm start
 ```
@@ -63,7 +50,6 @@ express-mvc-api/
 │   ├── routes/        # Routing API
 │   ├── middlewares/   # Middleware aplikasi
 │   ├── config/        # Konfigurasi database dan env
-│   ├── utils/         # Helper functions
 │-- app.js             # Entry point aplikasi
 │-- package.json       # File konfigurasi npm
 ```
